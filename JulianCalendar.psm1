@@ -13,13 +13,13 @@ function ConvertTo-JulianCalendar
     System.DateTime. The Julian dates.
     .EXAMPLE
     PS> ConvertTo-JulianCalendar -GregorianDate (New-Object -TypeName 'System.DateTime' -ArgumentList 2021, 5, 7, 12, 0, 0, 0)
-    
+
 
     Saturday, April 24, 2021 12:00:00 PM
     .EXAMPLE
     PS> $date = New-Object -TypeName 'System.DateTime' -ArgumentList 2000, 1, 1, 0, 0, 0, 0, 0
     PS> $date | ConvertTo-JulianCalendar
-    
+
 
     Sunday, December 19, 1999 12:00:00 AM
     #>
@@ -61,13 +61,13 @@ function ConvertTo-GregorianCalendar
     System.DateTime. The gregorian dates.
     .EXAMPLE
     PS> ConvertTo-GregorianCalendar -JulianDate (New-Object -TypeName 'System.DateTime' -ArgumentList 2021, 4, 24, 12, 0, 0, 0)
-    
+
 
     Friday, May 7, 2021 12:00:00 PM
     .EXAMPLE
     PS> $date = New-Object -TypeName 'System.DateTime' -ArgumentList 2000, 1, 1, 0, 0, 0, 0, 0
     PS> $date | ConvertTo-GregorianCalendar
-    
+
 
     Friday, January 14, 2000 12:00:00 AM
     #>
