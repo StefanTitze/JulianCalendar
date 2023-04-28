@@ -12,7 +12,7 @@
 RootModule = '.\JulianCalendar.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.2'
+ModuleVersion = '1.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -24,10 +24,10 @@ GUID = '6bd4b1d2-b0de-4ebf-82ec-aae13f1b0215'
 Author = 'Stefan Titze'
 
 # Company or vendor of this module
-CompanyName = 'baramundi software AG'
+CompanyName = 'baramundi software GmbH'
 
 # Copyright statement for this module
-Copyright = '(c) 2021 by baramundi software AG'
+Copyright = '(c) 2021 by baramundi software GmbH'
 
 # Description of the functionality provided by this module
 Description = 'Module that converts dates between julian and gregorian calendar'
